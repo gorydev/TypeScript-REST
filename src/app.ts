@@ -1,4 +1,4 @@
-import express, { Application, Request, Response, NextFunction } from 'express';
+import express, { Application } from 'express';
 import authRoutes from './routes/auth';
 
 const app: Application = express();
